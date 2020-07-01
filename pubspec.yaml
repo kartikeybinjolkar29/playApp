@@ -41,6 +41,7 @@ dependencies:
   timeago: ^2.0.26
   cached_network_image:
   flutter_svg:
+  provider:
 
 
 
@@ -69,11 +70,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/google_signin_button.png
-    - assets/images/upload.svg
-    - assets/images/search.svg
-    - assets/images/activity_feed.svg
-    - assets/images/no_content.svg
+    - assets/facebook.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -87,11 +85,11 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Signatra
+    - family: Montserrat
       fonts:
-        - asset: assets/fonts/Signatra.ttf
-  #      - asset: assets/Montserrat-Bold.ttf
-  #        weight: 700
+        - asset: assets/Montserrat-Regular.ttf
+        - asset: assets/Montserrat-Bold.ttf
+          weight: 700
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
